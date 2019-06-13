@@ -8,9 +8,9 @@ una stringa rossa. -->
 $password = $_GET['pwd'];
 
 if ($password == ucfirst('boolean')) { //ucfirst <-- prima lettera maiscola
-  echo "<span style='color:green'>".'success'."</span>";
+  echo "<span style='color:green; font-size:50px'>".'success'."</span>";
 }else{
-  echo "<span style='color:red'>".'error'."</span>";;
+  echo "<span style='color:red; font-size:50px'>".'error'."</span>";;
 }
 
  ?>
